@@ -1,6 +1,6 @@
 # Flacuna: A Vicuna made of Flan
 
-![Alt Text](flacuna5.png)
+<img src="flacuna5.png" alt="Image" width="50" height="100">
 
 Flacuna was developed by fine-tuning Vicuna on Flan-mini, a comprehensive instruction collection encompassing various tasks. Vicuna is already an excellent writing assistant, and the intention behind Flacuna was to enhance Vicuna's problem-solving capabilities. To achieve this, we curated a dedicated instruction dataset called Flan-mini.
 
