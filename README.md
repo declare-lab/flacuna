@@ -24,10 +24,10 @@ As a result of this fine-tuning process, Flacuna exhibited notable performance i
 | **Model** | **Size** | **MMLU (5-shot)** | **BBH (3-shot)** | **DROP (3-shot)** | **CRASS (3-shot)** | **HumanEval (0-shot)** | **Avg.** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | StableVicuna | 13B | 49.2 (+3.0) | 37.5 (+0.4) | 34.3 (-1.0) | 67.5 (+8.7) | 15.9 (+2.5) | 40.9 (+2.7) |
-| Vicuna | 13B | 50.6 (+4.5) | 37.6 (+0.5) | 32.6 (-3.0) | 60.9 (+2.1) | 11.6 (-1.8) | 38.8 (+0.6) |
+| Vicuna | 13B | 50.6 (+4.5) | 37.6 (+0.5) | 32.6 (-3.0) | 60.9 (+2.1) | 11.6 (-1.8) | 38.7 (+0.6) |
 | Flacuna | 13B | 51.1 (+5.0) | 39.3 (+2.2) | 43.6 (+8.0) | 74.1 (+15.3) | 11.0 (-2.4) | 43.8 (+5.6) |
 
-| Model | Size | **MMLU (0-shot)** | **BBH (0-shot)** | **CRASS (0-shot)** |
+| **Model** | **Size** | **MMLU (0-shot)** | **BBH (0-shot)** | **CRASS (0-shot)** |
 | --- | --- | --- | --- | --- |
 | StableVicuna | 13B | 47.5 | 18.5 | 64.2 |
 | Vicuna | 13B | 48.3 | 28.3 | 65.7 |
