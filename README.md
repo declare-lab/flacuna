@@ -45,8 +45,8 @@ While Flacuna primarily excels in problem-solving tasks, we made efforts to main
 To use Flacuna as a chatbot or writing assistant, we recommend you use the following template:
 
 ```
-A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: {definition of the task}./n/n
-{question}/n
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: {definition of the task}.\n\n
+{question}\n
 Output: ASSISTANT:
 
 ```
@@ -64,3 +64,26 @@ The following table presents the writing performance of Flacuna on the IMPACT da
 | StableVicuna | 13B | 3.54 | 3.64 | 2.96 | 3.74 | 3.30 | 3.20 | 3.02 | 3.18 | 3.21 | 3.44 |
 | Vicuna | 13B | 3.60 | 3.96 | 3.74 | 3.82 | 3.82 | 3.56 | 3.82 | 3.92 | 3.75 | 3.82 |
 | Flacuna | 13B | 3.02 | 3.42 | 3.48 | 3.52 | 3.38 | 3.02 | 3.92 | 3.80 | 3.45 | 3.44 |
+
+
+## Basic Usage
+```bash
+git clone https://huggingface.co/declare-lab/flacuna-13b-v1.0
+cd flacuna-13b-v1.0
+python flacuna.py
+```
+## Training or Fine-tuning Flacuna
+
+The trainer codes are available here: [https://github.com/declare-lab/flacuna](https://github.com/declare-lab/flacuna).
+
+## Citation
+
+```bibtex
+@article{ghosal2023flacuna,
+  title={Flacuna: Unleashing the Problem Solving Power of Vicuna using FLAN Fine-Tuning},
+  author={Ghosal, Deepanway and Chia, Yew Ken and Majumder, Navonil and Poria, Soujanya},
+  journal={arXiv preprint arXiv:2307},
+  year={2023},
+  month={July},
+}
+```
