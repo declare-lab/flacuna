@@ -83,11 +83,12 @@ The trainer codes are available here: [https://github.com/declare-lab/flacuna](h
 ## Citation
 
 ```bibtex
-@article{ghosal2023flacuna,
-  title={Flacuna: Unleashing the Problem Solving Power of Vicuna using FLAN Fine-Tuning},
-  author={Ghosal, Deepanway and Chia, Yew Ken and Majumder, Navonil and Poria, Soujanya},
-  journal={arXiv preprint arXiv:2307},
-  year={2023},
-  month={July},
+@misc{ghosal2023flacuna,
+      title={Flacuna: Unleashing the Problem Solving Power of Vicuna using FLAN Fine-Tuning}, 
+      author={Deepanway Ghosal and Yew Ken Chia and Navonil Majumder and Soujanya Poria},
+      year={2023},
+      eprint={2307.02053},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
