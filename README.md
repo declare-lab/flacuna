@@ -1,6 +1,6 @@
 # Flacuna: A Vicuna made of Flan
 
-[Paper](https://arxiv.org/abs//2307.02053) | [Model](https://huggingface.co/declare-lab/flacuna-13b-v1.0) | [Dataset](https://huggingface.co/declare-lab/flan-mini)
+[Paper](https://arxiv.org/abs//2307.02053) | [Model](https://huggingface.co/declare-lab/flacuna-13b-v1.0) | [Dataset](https://huggingface.co/datasets/declare-lab/flan-mini)
 
 <p align="center">
 
