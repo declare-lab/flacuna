@@ -26,6 +26,23 @@ Flacuna was developed by fine-tuning Vicuna on Flan-mini, a comprehensive instru
 | ShareGPT                    | ChatGPT                | 60K          |
 | Total                       | -                      | 1.34M        |
 
+
+## Quickstart Guide
+```python
+from flacuna import FLACUNA
+model = FLACUNA("declare-lab/flacuna-13b-v1.0")
+
+prompt = (
+  "A chat between a curious user and an artificial intelligence assistant. "
+  "The assistant gives helpful, detailed, and polite answers to the user's questions. "
+  "USER: You are tasked to demonstrate your writing skills in professional or work settings for the following question.\n"
+  "Can you help me write a speech for a graduation ceremony, inspiring and motivating the graduates to pursue their dreams and make a positive impact on the world?\n"
+  "Output: ASSISTANT: "
+)
+decoded = model.generate(prompt)
+print (decoded)
+```
+
 ## Problem Solving Ability
 
 As a result of this fine-tuning process, Flacuna exhibited notable performance improvements in problem-solving across multiple benchmark datasets, both in few-shot and zero-shot settings.
@@ -72,15 +89,9 @@ The following table presents the writing performance of Flacuna on the IMPACT da
 | Flacuna | 13B | 3.02 | 3.42 | 3.48 | 3.52 | 3.38 | 3.02 | 3.92 | 3.80 | 3.45 | 3.44 |
 
 
-## Basic Usage
-```bash
-git clone https://huggingface.co/declare-lab/flacuna-13b-v1.0
-cd flacuna-13b-v1.0
-python flacuna.py
-```
-## Training or Fine-tuning Flacuna
+## Training Flacuna
 
-The trainer codes are available here: [https://github.com/declare-lab/flacuna](https://github.com/declare-lab/flacuna).
+You can use the `train.sh` script for fine-tuning Vicuna on the Flan-Mini dataset.
 
 ## Citation
 
