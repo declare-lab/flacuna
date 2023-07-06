@@ -1,0 +1,7 @@
+.
+./deepspeed_configs/.ipynb_checkpoints
+./fastchat/train/.ipynb_checkpoints
+./fastchat/data/.ipynb_checkpoints
+./fastchat/.ipynb_checkpoints
+./fastchat/model/.ipynb_checkpoints
+./peft_flacuna/.ipynb_checkpoints
