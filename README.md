@@ -112,8 +112,18 @@ The following table presents the writing performance of Flacuna on the IMPACT da
 
 
 ## Training Flacuna
+Navigate to the `data` directory and download the Flan-Mini dataset:
+```bash
+cd data
+wget https://huggingface.co/datasets/declare-lab/flan-mini/resolve/main/flan_mini.json.zip
+unzip flan_mini.json.zip
+cd ..
+```
 
-You can use the `train.sh` script for fine-tuning Vicuna on the Flan-Mini dataset.
+You can then use the `train.sh` script for fine-tuning Vicuna on the Flan-Mini dataset:
+```bash
+bash train.sh
+```
 
 ## Citation
 
