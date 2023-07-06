@@ -43,6 +43,28 @@ decoded = model.generate(prompt)
 print (decoded)
 ```
 
+The output is the following:
+
+```
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: You are tasked to demonstrate your writing skills in professional or work settings for the following question.
+Can you help me write a speech for a graduation ceremony, inspiring and motivating the graduates to pursue their dreams and make a positive impact on the world?
+Output: ASSISTANT: ​​Dear Graduates,
+
+It is my honor to stand before you here today, to celebrate your achievements and to acknowledge your hard work and dedication that you have shown here at the University. I am proud of each one of you, for all that you have accomplished thus far, and for the potential that lies within each of you.
+
+As you move on from this stage, I want to remind you that your journey has just begun. The real world awaits you, and with it, comes a myriad of opportunities and challenges. But I believe in each one of you, and I know that you are more than capable of facing whatever lies ahead.
+
+You are the future of this world, and I have no doubt that you will make a positive impact on it, in whatever field you choose to pursue. Whether it is in science, technology, education, healthcare, or any other field, your contributions will be valuable and meaningful, and will make a difference in the lives of others.
+
+So, as you move forward, I urge you to stay true to your passions, to pursue your dreams, and to never give up on what you believe in. Remember, it is not the obstacles that define us, but how we overcome them that truly matters.
+
+You have the power to change the world, and I have no doubt that you will. So, go out there, and make the most of every opportunity that comes your way. Make a difference, and leave your mark on this world.
+
+Congratulations once again, and best of luck in all that lies ahead.
+
+Thank you.
+```
+
 ## Problem Solving Ability
 
 As a result of this fine-tuning process, Flacuna exhibited notable performance improvements in problem-solving across multiple benchmark datasets, both in few-shot and zero-shot settings.
