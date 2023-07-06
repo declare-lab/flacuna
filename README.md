@@ -2,6 +2,8 @@
 
 [Paper](https://arxiv.org/abs//2307.02053) | [Model](https://huggingface.co/declare-lab/flacuna-13b-v1.0) | [Dataset](https://huggingface.co/datasets/declare-lab/flan-mini)
 
+📣 We still have numerous experiments awaiting completion (details are [here](https://arxiv.org/abs//2307.02053)), requiring additional computing resources in our lab. If any industry professionals reading this are willing to provide assistance, please feel free to reach out to us at sporia@sutd.edu.sg.
+
 <p align="center">
 
 <img src="https://declare-lab.net/assets/images/logos/flacuna5.png" alt="Image" width="200" height="335">
