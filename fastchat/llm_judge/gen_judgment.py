@@ -189,8 +189,8 @@ if __name__ == "__main__":
         choices=["pairwise-baseline", "pairwise-all", "single"],
         help=(
             "Evaluation mode. "
-            "`pairwise-baseline` runs pairwise comparision against a baseline. "
-            "`pairwise-all` runs pairwise comparision between all pairs. "
+            "`pairwise-baseline` runs pairwise comparison against a baseline. "
+            "`pairwise-all` runs pairwise comparison between all pairs. "
             "`single` runs single answer grading."
         ),
     )
